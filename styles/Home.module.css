@@ -1,0 +1,198 @@
+.container {
+  
+  text-align: center;
+  
+}
+
+.main {
+  margin: 0;
+  line-height: 1;
+  font-size: 1rem;
+  text-align: center;
+  
+}
+
+.backImg{
+    background-image: url(/public/moses.jpg);
+    width: "100%";
+    Height: "100%";
+    background-repeat: no-repeat;
+    background-position: center;
+    /* backgroundSize: "cover"; */
+}
+
+.footer {
+  background-image: url(../public/blackLine.jpeg) ;
+  display: flex;
+  flex: 1;
+  padding:  0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  color: blueviolet;
+}
+
+.title {
+  line-height: 1;
+  font-size: 1rem;
+}
+
+.title,
+.description {
+  
+  
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+
+  grid-template-rows: 100%;
+  grid-template-columns: 2fr 4 fr 1 fr;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.card {
+  margin: 0 50px 0 50px;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.cards {
+  margin: 0 50px 0 50px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  color: inherit;
+  
+  /* border: 1px solid #f5f2f2;
+  border-radius: 10px; */
+  /* transition: color 0.15s ease, border-color 0.15s ease; */
+  max-width: 100%;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.app{
+
+
+min-width: 100%;
+min-height: 100%;
+}
+.header{
+  height: 20px;
+  width: 200px;
+
+
+  
+}
+.contLine{
+  width: auto;
+  height: 150px;
+  background-image: url(../public/blackLine.jpeg) ;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.footPhoto{
+  width: 1200px;
+  height: 500px;
+
+}
+.headPhoto{
+  width: 200px;
+  height: 150px; 
+  margin:0 250px 0 50px;
+  
+}
+
+
+
+.gridZip{
+  background-image: url(../public/blackLine.jpeg);
+  display: flex;
+  align-items: center; 
+  /* justify-content: center; */
+   flex-wrap: nowrap;  
+  max-width: 100%;
+}
+
