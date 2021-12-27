@@ -1,5 +1,7 @@
+import styles from '../styles/Home.module.css'
+
 function Footer() {
-    return <div>more information</div>
+    return <div></div>
 }
 
 export { Footer }

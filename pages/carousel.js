@@ -29,6 +29,7 @@ const Gallery = () => {
         autoPlayInterval={3000}
         items={items} 
         disableButtonsControls={true}
+        disableDotsControls={true}
         />
     </div>
   );
