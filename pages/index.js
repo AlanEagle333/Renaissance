@@ -7,7 +7,7 @@ import Galleryy from './carousecond.js'
 
 export default function Home() {
   return (
-    
+    <html>
     <div className={styles.container}>
     
      
@@ -27,6 +27,10 @@ export default function Home() {
 
           <div className={styles.hero}>
               <p>The world of pain and pleasure!</p>
+              <p>Hi my name is Alina and I am ...tatoo master .
+                As it turned out , I having a great pleasure of beating people. 
+                To be more concrete , making tatoos on their bodies .
+              </p>
               <a href="/about">Check out my world !</a>
           </div>
           
@@ -43,5 +47,6 @@ export default function Home() {
       <div>
     </div>
   </div>
+  </html>
   )
 }
